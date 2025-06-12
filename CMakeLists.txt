@@ -3,12 +3,12 @@ project(TradingPlatform)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(TradingPlatform main.cpp
-        order.h
-        orderbook.h
-        stock.h
-        trader.h
+include_directories(include)
+
+add_executable(my_app
+        main.cpp
         order.cpp
         orderbook.cpp
+        trader.cpp
         stock.cpp
-        trader.cpp)
+)

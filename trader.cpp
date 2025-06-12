@@ -1,4 +1,4 @@
-#include "trader.h"
+#include "include/trader.h"
 #include <iostream>
 
 namespace StockTradingSystem {

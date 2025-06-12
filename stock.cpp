@@ -1,4 +1,4 @@
-#include "stock.h"
+#include "include/stock.h"
 
 namespace StockTradingSystem {
 
