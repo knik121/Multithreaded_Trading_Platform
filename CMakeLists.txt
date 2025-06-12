@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(TradingPlatform main.cpp
         order.h
         orderbook.h
-        stock.h)
+        stock.h
+        trader.h)
