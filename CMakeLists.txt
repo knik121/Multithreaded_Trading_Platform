@@ -7,4 +7,8 @@ add_executable(TradingPlatform main.cpp
         order.h
         orderbook.h
         stock.h
-        trader.h)
+        trader.h
+        order.cpp
+        orderbook.cpp
+        stock.cpp
+        trader.cpp)
